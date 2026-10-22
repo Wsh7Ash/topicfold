@@ -1,0 +1,12 @@
+[build-system]
+requires=["setuptools>=61.0"]
+build-backend="setuptools.build_meta"
+[project]
+name="topicfold"
+version="0.1.0"
+description="Offline note clustering: group a folder of text notes into topics with feature-hash vectors and agglomerative clustering"
+readme="README.md"
+requires-python=">=3.10"
+dependencies=[]
+[tool.setuptools.packages.find]
+where=["src"]
